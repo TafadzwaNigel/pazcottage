@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+    
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    
+    </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zimbabwe Institute of Public Administration and Management</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+</head>
+
+<body style="width:fit-content;">
+    <header style="height: 20vh; background-image:url(images/water.jpg); background-size: cover; background-position: center;">    
+       
+    </header>
+    <p>.</p>
+    <a style = "border: 3px solid black; padding: 0.8vh 1.0vw; color: black; transition: 0.5s ease; font-size: 1.9vw;" href="index.html" class="btn">HOME</a>
+    <p>.</p>
+    <div class="gallery">
+        <div class="row"> 
+            <div class="column">
+              <img src="images/17.jpg" style="width:100%">
+              <img src="images/zipammain.jpg" style="width:100%">
+              <img src="images/1.jpg" style="width:100%">
+              <img src="images/2.jpg" style="width:100%">
+              <img src="images/14.jpg" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="images/3.jpg" style="width:100%">
+              <img src="images/zipammain3-min.jpg" style="width:100%">
+              <img src="images/gymbg.jpg" style="width:100%">
+              <img src="images/4.jpg" style="width:100%">
+
+              
+          
+            </div>  
+            <div class="column">
+              <img src="images/18.jpg" style="width:100%">
+              <img src="images/food.jpg" style="width:100%">
+              <img src="images/6.jpg" style="width:100%">
+              <img src="images/15.jpg" style="width:100%">
+              <img src="images/10.jpg" style="width:100%">
+              x
+              
+            </div>
+            <div class="column">
+              <img src="images/13.jpg" style="width:100%">
+              <img src="images/12.jpg" style="width:100%">
+              <img src="images/zipammain.jpg" style="width:100%">
+              <img src="images/16.jpg" style="width:100%">
+          
+            </div>
+          </div>
+    </div>
+</body>
